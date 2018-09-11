@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 14px;
+    font-family: 微软雅黑;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none
+}
+
+
+a,
+a:hover {
+    transition: background 0.5s linear;
+    -webkit-transition: background 0.5s linear;
+    -moz-transition: background 0.5s linear;
+    -o-transition: background 0.5s linear;
+}
+
+em,
+i {
+    font-style: normal;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+textarea {
+    resize: none;
+}
+
+p {
+    line-height: 22px;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.position {
+    position: relative;
+}
+
+/*公共样式*/
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.row {
+    display: flex;
+    text-align: center;
+    width: 100%
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.col-9 {
+    width: 90%;
+}
+
+.col-10 {
+    width: 100%;
+}
+
+/*头部*/
+
+/*导航*/
+
+/*banner*/
+
+/*内容*/
+
+/*底部*/
